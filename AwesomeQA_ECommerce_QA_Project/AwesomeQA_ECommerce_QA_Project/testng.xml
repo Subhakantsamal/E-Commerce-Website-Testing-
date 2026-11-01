@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AwesomeQA E-Commerce Regression Suite" verbose="1" parallel="false">
+    <test name="AwesomeQA UI Tests">
+        <classes>
+            <class name="com.awesomeqa.tests.HomeTests"/>
+            <class name="com.awesomeqa.tests.AccountTests"/>
+            <class name="com.awesomeqa.tests.SearchTests"/>
+            <class name="com.awesomeqa.tests.NavigationTests"/>
+            <class name="com.awesomeqa.tests.ProductCartTests"/>
+            <class name="com.awesomeqa.tests.CheckoutTests"/>
+        </classes>
+    </test>
+</suite>
